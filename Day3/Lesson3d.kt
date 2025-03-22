@@ -11,7 +11,6 @@ fun main() {
 
 }
 
-
 //If time allows give below Task
 // 1. CreateArray of Planets
 // 2. Loop through the Planets

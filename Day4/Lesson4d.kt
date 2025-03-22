@@ -11,6 +11,3 @@ fun addNumbers(a: Int, b: Int) {
 
 
 //Student TODO multiplication, Disvision of 2 numbers.
-
-
-

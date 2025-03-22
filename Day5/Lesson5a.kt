@@ -3,7 +3,7 @@ class Person {
     //Properties
     var name = "John"
     var age = 39
-
+    
     //Member Functions
     // in speak and eat function we also access a property name.
     fun speak(){
