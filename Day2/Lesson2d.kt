@@ -19,4 +19,4 @@ fun main() {
     }
 }
 
-//DO Assignment 1, then introduce WHEN on remaining Time , Lesson2e
+//Give Assignment 1, then introduce WHEN on remaining Time , Lesson2e

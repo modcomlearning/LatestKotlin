@@ -1,6 +1,7 @@
 fun main() {
-      //Here we do not specify the Data Types
-      //In this Case the Data Type is identified by Its value
+    //Here we do not specify the Data Types
+    //In this Case the Data Type is identified by Its value
+    // we will differentaite between val and var and Focus on val only
     val myNum = 5             // Int
     val myDoubleNum = 5.99    // Double
     val myLetter = 'D'        // Char
