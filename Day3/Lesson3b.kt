@@ -1,10 +1,10 @@
 fun main() {
     //While Loop
-    var count = 0 // we set some initial variable
-    // works if condition is true
+    var count = 0 //initialize loop
+    //set Condition
     while (count <= 10) {
         println("It Looping $count")
-        count = count + 1 // or count++ means add 1 to
-        // increment/decrement count so as one ...time it will be
+        count = count + 1 // Increment 
+   
     }
 }

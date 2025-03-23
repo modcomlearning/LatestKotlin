@@ -18,5 +18,3 @@ fun main() {
         println("You Passed")
     }
 }
-
-//Give Assignment 1, then introduce WHEN on remaining Time , Lesson2e

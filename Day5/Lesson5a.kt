@@ -1,9 +1,8 @@
 //Create a Person Object.
 class Person {
-    //Properties
+    //Attributes/States/Properties
     var name = "John"
     var age = 39
-    
     //Member Functions
     // in speak and eat function we also access a property name.
     fun speak(){
@@ -18,11 +17,7 @@ class Person {
 fun main() {
      //Create an Object using Person Class and Store it in myobject variable
      var myobject = Person()
-
      //use myobject to access member functions and properties
      //Access Function
      myobject.speak()
-     
-     //Access Property name
-     println("The name of the Person is: "+myobject.name)
 }//end

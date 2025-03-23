@@ -3,17 +3,16 @@ fun main() {
     val number = 20
 
     //if statement
-    //Do comparision operators/logical operators
     if (number > 0){
        println("Its Positive")
     }
-
+    //else if
     else if(number < 0){
         println("Its Negative")
     }
-
+    //else
     else {
-        println("Its Negative")
+        println("Its Zero")
     }
     
 }

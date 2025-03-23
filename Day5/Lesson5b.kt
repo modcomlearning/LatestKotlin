@@ -1,31 +1,21 @@
 //Using OOP Style to find Area of Square
 class Square {
-    //Properties
-    private val width: Double = 5.0  // Fixed side length
-    private val height: Double = 5.0  // Fixed side length
+    //Properties/attributes/States
+    val width = 5.0  // Fixed side width
+    val height = 5.0  // Fixed side height
 
     //Lecturer TODO Find ARea
     //Member function
-    fun calculateArea() {
+    fun calculate_area() {
         //multiply sides
         val area = width * height
         println("Area of Square: $area")
     }
-    
-
-    //Student to Try find Perimeter
-    //Member Function
-    fun calculatePerimeter() {
-        //add all sides
-        val perimeter = (width + height) * 2
-        println("Perimeter of Square: $perimeter")
-    }
-}
+}//end Class
 
 fun main() {
     //Create your Object - instance
-    val square = Square()  
-    //Access memmber function
-    square.calculateArea()       // Output: Area of Square: 25.0
-    square.calculatePerimeter()  // Output: Perimeter of Square: 20.0
+    val squareObject = Square()  
+    //Access member function
+    squareObject.calculateArea()       // Output: Area of Square: 25.0
 }

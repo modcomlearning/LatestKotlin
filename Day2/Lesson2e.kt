@@ -1,8 +1,5 @@
 fun main() {
     var marks: Int = 90 // we set some marks here
-    //Explain that when is an alternative to IF Statements.
-    //This can also be given as an assignment.
-    //Students will be asked to read on a Given Page on the book., we will agree
     when (marks) {
         in 1..30 -> println("You have $marks - Below average")
         in 31..50 -> println("You have $marks - Average")
